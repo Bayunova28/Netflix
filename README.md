@@ -54,7 +54,7 @@ where row_num = 1
 ```
 
 ## Dashboard
-<img src="https://github.com/Bayunova28/Netflix/blob/master/Dashboard.jpg" height="600" width="1100">
+<img src="https://github.com/Bayunova28/Netflix/blob/master/Dashboard.jpg" height="550" width="1100">
 
 ## Data Analysis Expressions (DAX) Calculation
 * Total Movie Film
