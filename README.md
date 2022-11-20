@@ -8,10 +8,10 @@ Originals. Netflix can be accessed via web browsers or via application software 
 smartphones, digital media players, Blu-ray players, video game consoles and virtual reality headsets on the list of Netflix-compatible devices and available on 4K 
 resolution.</p>
 
-## Requirement
+## Requirement (Import & Load Data to Power BI Desktop)
 ### Titles Table
 ```mysql
--- Load and import netflix titles table to Power BI Desktop that release year on 2010 until 2020
+-- Load and import netflix titles table to Power BI Desktop that release on 2010 until 2020
 select *
 from 
 (
