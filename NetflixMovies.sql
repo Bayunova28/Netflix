@@ -182,8 +182,23 @@ where GENRE = 'Scifi'
       and TYPE = 'MOVIE'
 order by MOVIE_ID
 
--- Looking film that genre is horror and production country at britania raya
+-- Looking film that genre is horror and production country at britania raya order by movie ID
 select *
 from Entertaintment.dbo.Titles
 where GENRE = 'Horror'
 	  and PRODUCTION_COUNTRY = 'GB'
+order by MOVIE_ID
+
+-- Looking film that season is more than 10 and imdb score more than 7.5
+select *
+from Entertaintment.dbo.Titles
+where SEASON > 10
+	  and IMDB_SCORE > '7.5'
+
+-- Looking film that genre is drama and season under 10 on release 2017
+select *
+from Entertaintment.dbo.Titles
+where GENRE = 'Drama'
+	  and SEASON < 10
+	  and RELEASE_YEAR = 2017
+	  and SEASON <> 0
