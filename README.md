@@ -66,6 +66,10 @@ Total Movie Film =
 var result = CALCULATE(COUNT(Titles[MOVIE_ID]), Titles[TYPE] = "MOVIE")
 return IF(ISBLANK(result), 0, result)
 ```
+* Total Film
+```
+Total Film = CALCULATE(COUNT(Titles[MOIVE_ID]))
+```
 * Total Popularity
 ```
 Total Popularity = CALCULATE(SUM(Titles[TMDB_POPULARITY]))
